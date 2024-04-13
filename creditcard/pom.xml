@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http:/18.117.83.227/:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
+		
+		 <repository>
+		    <id>nexusRepo</id>
+		    <url>http://18.117.83.227:8081/repository/sample-release/</url>
+		 </repository>
+  </distributionManagement>
+  
 
   <build>
     <finalName>creditcard</finalName>
